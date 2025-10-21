@@ -1,5 +1,6 @@
 import json
 from colorama import Back, Style, Fore
+import time
 
 with open('config.json', 'r') as file:
     config = json.load(file)
@@ -38,3 +39,5 @@ res8 = LicenseHuntWT * num8
 result = res1 + res2 + res3 + res4 + res5 + res6 + res7 + res8
 
 print(Fore.BLACK + Back.WHITE + "Вам необходимо заплатить:", result, "$" + Style.RESET_ALL)
+print(Fore.BLACK + Back.WHITE + "Программа автоматически закроется через 60 секунд" + Style.RESET_ALL)
+time.sleep(60)
