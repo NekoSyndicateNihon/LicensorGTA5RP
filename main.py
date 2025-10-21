@@ -17,14 +17,14 @@ print("--------------------------------------")
 print('----------------BySIYG----------------')
 print("--------------------------------------")
 
-num1 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на оружие в не рабочее время:" + Style.RESET_ALL))
-num2 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на рыбалку в не рабочее время:" + Style.RESET_ALL))
-num3 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на бизнес в не рабочее время:" + Style.RESET_ALL))
-num4 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на охоту в не рабочее время:" + Style.RESET_ALL))
-num5 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на оружие в рабочее время:" + Style.RESET_ALL))
-num6 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на рыбалку в рабочее время:" + Style.RESET_ALL))
-num7 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на бизнес в рабочее время:" + Style.RESET_ALL))
-num8 = int(input(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Лицензии на охоту в рабочее время:" + Style.RESET_ALL))
+num1 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на оружие в не рабочее время:" + Style.RESET_ALL))
+num2 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на рыбалку в не рабочее время:" + Style.RESET_ALL))
+num3 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на бизнес в не рабочее время:" + Style.RESET_ALL))
+num4 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на охоту в не рабочее время:" + Style.RESET_ALL))
+num5 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на оружие в рабочее время:" + Style.RESET_ALL))
+num6 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на рыбалку в рабочее время:" + Style.RESET_ALL))
+num7 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на бизнес в рабочее время:" + Style.RESET_ALL))
+num8 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на охоту в рабочее время:" + Style.RESET_ALL))
 
 res1 = LicenseWeaponNT * num1
 res2 = LicenseFishNT * num2
