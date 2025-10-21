@@ -37,4 +37,4 @@ res8 = LicenseHuntWT * num8
 
 result = res1 + res2 + res3 + res4 + res5 + res6 + res7 + res8
 
-print(Style.BRIGHT + Fore.BLACK + Back.WHITE + "Вам необходимо заплатить:", result, "$" + Style.RESET_ALL)
+print(Fore.BLACK + Back.WHITE + "Вам необходимо заплатить:", result, "$" + Style.RESET_ALL)
