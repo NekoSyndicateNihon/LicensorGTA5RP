@@ -13,9 +13,9 @@ LicenseFishWT = config['LicenseFishWT']
 LicenseBisWT = config['LicenseBisWT']
 LicenseHuntWT = config['LicenseHuntWT']
 
-print("--------------------------------------")
-print('----------------BySIYG----------------')
-print("--------------------------------------")
+print(Fore.BLACK + Back.WHITE + "--------------------------------------" + Style.RESET_ALL)
+print(Fore.BLACK + Back.WHITE + '----------------BySIYG----------------' + Style.RESET_ALL)
+print(Fore.BLACK + Back.WHITE + "--------------------------------------" + Style.RESET_ALL)
 
 num1 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на оружие в не рабочее время:" + Style.RESET_ALL))
 num2 = int(input(Fore.BLACK + Back.WHITE + "Лицензии на рыбалку в не рабочее время:" + Style.RESET_ALL))
